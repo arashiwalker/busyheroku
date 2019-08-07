@@ -1,1 +1,1 @@
-web: gunicorn populartimes.py
+web: gunicorn src.app:app --log-fille=-
